@@ -2,7 +2,7 @@
   "name": "Habit Tracker",
   "short_name": "Habits",
   "description": "Tägliche Gewohnheiten tracken",
-  "start_url": "/",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f7f7f5",
   "theme_color": "#4a9e6b",

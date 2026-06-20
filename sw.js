@@ -1,5 +1,13 @@
-const CACHE = 'habits-v1';
-const FILES = ['/', '/index.html', '/app.css', '/app.js', '/manifest.json'];
+const CACHE = 'habits-v2';
+const FILES = [
+  './',
+  './index.html',
+  './app.css',
+  './app.js',
+  './manifest.json',
+  './icons/icon192.png',
+  './icons/icon512.png'
+];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)));
